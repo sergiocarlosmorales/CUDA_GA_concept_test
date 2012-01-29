@@ -1,1 +1,12 @@
 Conceptual program, evaluated some efficiency in terms of CUDA Blocksize and number of threads
+
+
+//Test notes:
+
+Only allocating one block of threads results in small population size
+
+Need to handle multiple blocks
+
+Maximum size of block is 512 threads (more on other CUDA devices, but lets keep it safe)
+
+Population size must be really big, i must try to fill as much memory as possible on the device

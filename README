@@ -10,3 +10,8 @@ Need to handle multiple blocks
 Maximum size of block is 512 threads (more on other CUDA devices, but lets keep it safe)
 
 Population size must be really big, i must try to fill as much memory as possible on the device
+
+//Why is everything on one single file?
+
+If people wanna try it out its easier this way, if it s one just one file it is more likely that they will try it, instead of importing and creating multiple files
+Also, this is just a conceptual test, absolutely no intentions of realeasing it (I will start a new repo with the 'good' 'decent' and 'fast' version of this)
